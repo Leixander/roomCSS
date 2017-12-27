@@ -98,13 +98,13 @@ background-color: rgb(102, 17, 30)!important;
 }
 
 /* user colours in chat */
-#user-lists .list.room .user.role-host .name {
+.role-host .from .un, .role-cohost .from .un, #user-lists .list.room .user.role-host .name {
 color: rgb(204,216,217)!important;
 }
-#chat .from.staff .un, #user-lists .list.room .user.role-manager .name {
+#chat .role-manager .un, #user-lists .list.room .user.role-manager .name {
 color: rgb(168,191,199)!important;
 }
-#user-lists .list.room .user.role-bouncer .name {
+#chat .role-bouncer .un, #user-lists .list.room .user.role-bouncer .name {
 color: rgb(174,130,2)!important;
 }
 #chat .from.dj .un, #user-lists .list.room .user.role-dj .name { 
