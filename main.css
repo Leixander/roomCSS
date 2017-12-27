@@ -1,0 +1,108 @@
+/* Changes to the the header should be done here. */
+
+.app-header, #rs-skip-button, #history-button {
+background-color: rgb(23, 26, 55);
+}
+
+/* Changes to the chat and messages should be done here.*/
+#chat, #chat-input {
+background-color: rgb(16, 17, 37);
+}
+
+.msg {
+background: linear-gradient(to bottom,rgb(23, 26, 55),black);
+}
+
+/* Changed the footer color and the footer text color. */
+#footer {
+background-color: rgb(32, 20, 39);
+color: rgb(250, 233, 241);
+}
+
+/* All the icons, i.e. woot being cool fish and the PH icon next to plug icon at top left.*/
+
+.icon {
+background-image: url("https://cdn.discordapp.com/attachments/250314239724486658/395653444440031242/sprites3.png");
+}
+
+/* This portion removes the name of the room and changes it with the popheads logo.*/
+
+#room-name span {
+display: none;
+}
+#room-name {
+content:url(https://cdn.discordapp.com/attachments/250314239724486658/393862392792088577/popheadslogo.png);
+}
+
+/** Changes the woot/grab/meh colors and the border radius of the vote box*/
+/* for woot */
+#woot {
+border-radius: 50px 0 0 50px;
+}
+#vote > #woot.crowd-response.selected{
+  background-color: rgba(30, 204, 118, 1) !important;
+}
+#vote > #woot.crowd-response .bottom{
+background-color: rgba(15, 132, 74, 1) !important;
+}
+#vote > #woot.crowd-response.active .bottom{
+background-color: rgba(15, 132, 74, 1) !important;
+} 
+.votes-rs .title.woot {
+background-color: rgba(15, 132, 74, 1)!important;
+}
+
+/* for grab */
+#vote > #grab.crowd-response.selected {
+  background-color: rgb(133, 89, 163) !important;
+}
+#vote > #grab.crowd-response .bottom{
+  background-color: rgb(91, 58, 114) !important;
+}
+#vote > #grab.crowd-response.active .bottom{
+  background-color: rgb(91, 58, 114) !important;
+}
+.votes-rs .title.grab {
+background-color: rgb(91, 58, 114)!important;
+}
+
+/* for meh */
+#meh {
+border-radius: 0 50px 50px 0;
+}
+.votes-rs .title.meh {
+background-color: rgb(102, 17, 30)!important;
+}
+#vote > #meh.crowd-response.selected {
+  background-color: rgb(165, 38, 57) !important;
+}   
+#vote > #meh.crowd-response .bottom{
+  background-color: rgb(102, 17, 30) !important;
+}
+
+#vote > #meh.crowd-response.active .bottom{
+  background-color: rgb(102, 17, 30) !important;
+} 
+
+/*Remove box shadow and gradient on selected items*/
+#vote > .crowd-response.selected{
+  box-shadow: none !Important;
+}
+
+/* Made dj buttons round. Remove this code if you want to turn them into default state*/
+#dj-button, #dj-button.is-leave { 
+	border-radius: 100px 100px 100px 100px;
+}
+#dj-button .left {
+	border-radius: 100px 100px 100px 100px;
+}
+
+/*Uninplemented feature: Make selected grab/meh/woot bottom transparent
+#vote > #woot.crowd-response.selected .bottom,
+#vote > #woot.crowd-response.disabled.active .bottom,
+#vote > #grab.crowd-response.selected .bottom,
+#vote > #grab.crowd-response.disabled.active .bottom,
+#vote > #meh.crowd-response.selected .bottom,
+#vote > #meh.crowd-response.disabled.active .bottom{
+  background-color: transparent !important;
+}*/
