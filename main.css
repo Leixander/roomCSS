@@ -98,20 +98,20 @@ background-color: rgb(102, 17, 30)!important;
 }
 
 /* user colours in chat */
-.role-host .from .un, .role-cohost .from .un, #user-lists .list.room .user.role-host .name {
+#chat .role-cohost .un, #chat .role-host .un, #user-lists .list.room .user.role-host .name, #user-lists .list.room .user.role-cohost .name, #waitlist .list .user .name .icon-chat-host + span {
 color: rgb(204,216,217)!important;
 }
-#chat .role-manager .un, #user-lists .list.room .user.role-manager .name {
+#chat .role-manager .un, #user-lists .list.room .user.role-manager .name, #waitlist .list .user .name .icon-chat-manager + span {
 color: rgb(168,191,199)!important;
 }
-#chat .role-bouncer .un, #user-lists .list.room .user.role-bouncer .name {
+#chat .role-bouncer .un, #user-lists .list.room .user.role-bouncer .name, #waitlist .list .user .name .icon-chat-bouncer + span {
 color: rgb(174,130,2)!important;
 }
-#chat .from.dj .un, #user-lists .list.room .user.role-dj .name { 
+#chat .from.dj .un, #user-lists .list.room .user.role-dj .name, #waitlist .list .user .name .icon-chat-dj + span { 
 color: rgb(104,120,255)!important;
 }
 #chat .un, #user-lists .list.room .name { /* for non-staff */
-color: rgb(176,123,148)!important;
+color: rgb(132,193,255)!important;
 }
 #user-lists .list .user .name { /* for the staff names in the staff tab*/
 color: rgb(168,191,199);
