@@ -97,6 +97,26 @@ background-color: rgb(102, 17, 30)!important;
 	border-radius: 100px 100px 100px 100px;
 }
 
+/* user colours in chat */
+#user-lists .list.room .user.role-host .name {
+color: rgb(204,216,217)!important;
+}
+#chat .from.staff .un, #user-lists .list.room .user.role-manager .name {
+color: rgb(168,191,199)!important;
+}
+#user-lists .list.room .user.role-bouncer .name {
+color: rgb(174,130,2)!important;
+}
+#chat .from.dj .un, #user-lists .list.room .user.role-dj .name { 
+color: rgb(104,120,255)!important;
+}
+#chat .un, #user-lists .list.room .name { /* for non-staff */
+color: rgb(176,123,148)!important;
+}
+#user-lists .list .user .name { /* for the staff names in the staff tab*/
+color: rgb(168,191,199);
+}
+
 /*Uninplemented feature: Make selected grab/meh/woot bottom transparent
 #vote > #woot.crowd-response.selected .bottom,
 #vote > #woot.crowd-response.disabled.active .bottom,
