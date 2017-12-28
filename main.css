@@ -46,7 +46,7 @@ border-radius: 50px 0 0 50px;
 }
 #vote > #woot.crowd-response.selected{
   background-color: rgba(30, 204, 118, 1) !important;
-border-radius: 0px 0px 0px 50px;
+
 }
 #vote > #woot.crowd-response .bottom{
 background-color: rgba(15, 132, 74, 1) !important;
@@ -54,7 +54,7 @@ border-radius: 0px 0px 0px 50px;
 }
 #vote > #woot.crowd-response.active .bottom{
 background-color: rgba(15, 132, 74, 1) !important;
-border-radius: 0px 0px 0px 50px;
+
 } 
 .votes-rs .title.woot {
 background-color: rgba(15, 132, 74, 1)!important;
@@ -83,7 +83,7 @@ background-color: rgb(102, 17, 30)!important;
 }
 #vote > #meh.crowd-response.selected {
   background-color: rgb(165, 38, 57) !important;
-border-radius: 0px 0px 50px 0px;
+
 }   
 #vote > #meh.crowd-response .bottom{
   background-color: rgb(102, 17, 30) !important;
@@ -92,7 +92,7 @@ border-radius: 0px 0px 50px 0px;
 
 #vote > #meh.crowd-response.active .bottom{
   background-color: rgb(102, 17, 30) !important;
-border-radius: 0px 0px 50px 0px;
+
 } 
 
 /*Remove box shadow and gradient on selected items*/
