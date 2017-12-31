@@ -112,8 +112,11 @@ filter = hue-rotate(60deg);
 }
 
 /* user colours in chat */
-#chat .role-cohost .un, #chat .role-host .un, #user-lists .list.room .user.role-host .name, #user-lists .list.room .user.role-cohost .name, #waitlist .list .user .name .icon-chat-host + span {
-color: rgb(204,216,217)!important;
+#chat .from.sitemod .un, #user-lists .list.room .user.role-sitemod .name {
+color: #e74c3c!important; /* had to add it here since !important in non-staff overrides the original color of site staff*/
+}
+#chat .role-cohost .un,  #user-lists .list.room .user.role-cohost .name, #waitlist .list .user .name .icon-chat-host + span {
+color: rgb(204,216,217)!important; 
 }
 #chat .role-manager .un, #user-lists .list.room .user.role-manager .name, #waitlist .list .user .name .icon-chat-manager + span {
 color: rgb(168,191,199)!important;
