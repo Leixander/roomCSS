@@ -139,3 +139,8 @@ color: rgb(168,191,199);
 #vote > #meh.crowd-response.disabled.active .bottom{
   background-color: transparent !important;
 }*/
+
+/* mention gradient */
+#chat .mention .msg {
+background: linear-gradient(to bottom,rgba(255,118,118,0) ,black)!important;
+}
