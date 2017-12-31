@@ -112,27 +112,47 @@ filter = hue-rotate(60deg);
 }
 
 /* user colours in chat */
-#chat .from.sitemod .un, #user-lists .list.room .user.role-sitemod .name {
-color: #e74c3c!important; /* had to add it here since !important in non-staff overrides the original color of site staff*/
+#chat .from.promoter .un,  #user-lists .list.room .user.role-promoter .name {
+color: #1abc9c!important; /* had to add it here since !important in other code overrides the original color*/
 }
+
+#chat .from.sitemod .un, #user-lists .list.room .user.role-sitemod .name {
+color: #e74c3c!important; /* had to add it here since !important in other code  overrides the original color*/
+}
+
+#chat .from.subscriber .un, #user-lists .list.room .user.is-subscriber .name, #waitlist .list .user .name .icon-chat-subscriber + span {
+color: #c59840!important;/* had to add it here since !important in other code  overrides the original color*/
+}
+
 #chat .role-cohost .un,  #user-lists .list.room .user.role-cohost .name, #waitlist .list .user .name .icon-chat-host + span {
 color: rgb(204,216,217)!important; 
 }
+
 #chat .role-manager .un, #user-lists .list.room .user.role-manager .name, #waitlist .list .user .name .icon-chat-manager + span {
 color: rgb(168,191,199)!important;
 }
+
 #chat .role-bouncer .un, #user-lists .list.room .user.role-bouncer .name, #waitlist .list .user .name .icon-chat-bouncer + span {
-color: rgb(174,130,2)!important;
+color: rgb(233,195,4)!important;
 }
+
 #chat .from.dj .un, #user-lists .list.room .user.role-dj .name, #waitlist .list .user .name .icon-chat-dj + span { 
 color: rgb(104,120,255)!important;
 }
+
 #chat .un, #user-lists .list.room .name { /* for non-staff */
 color: rgb(88, 135, 183)!important; /*old color: rgb(132,193,255)*/
 }
+
 #user-lists .list .user .name { /* for the staff names in the staff tab*/
 color: rgb(168,191,199);
 }
+
+/* mention gradient */
+#chat .mention .msg {
+background: linear-gradient(to bottom,rgba(255,118,118,0) ,black)!important;
+}
+
 /*Uninplemented feature: Make selected grab/meh/woot bottom transparent
 #vote > #woot.crowd-response.selected .bottom,
 #vote > #woot.crowd-response.disabled.active .bottom,
@@ -142,8 +162,3 @@ color: rgb(168,191,199);
 #vote > #meh.crowd-response.disabled.active .bottom{
   background-color: transparent !important;
 }*/
-
-/* mention gradient */
-#chat .mention .msg {
-background: linear-gradient(to bottom,rgba(255,118,118,0) ,black)!important;
-}
