@@ -125,7 +125,7 @@ color: rgb(174,130,2)!important;
 color: rgb(104,120,255)!important;
 }
 #chat .un, #user-lists .list.room .name { /* for non-staff */
-color: rgb(132,193,255)!important;
+color: rgb(88, 135, 183)!important; /*old color: rgb(132,193,255)*/
 }
 #user-lists .list .user .name { /* for the staff names in the staff tab*/
 color: rgb(168,191,199);
