@@ -112,36 +112,47 @@ filter = hue-rotate(60deg);
 }
 
 /* user colours in chat */
-#chat .from.promoter .un,  #user-lists .list.room .user.role-promoter .name {
-color: #1abc9c!important; /* had to add it here since !important in other code overrides the original color*/
+
+/* had to add site mod,promoter and subscriber here since !important in other code overrides the original color*/
+
+#chat .from.promoter .un,  #user-lists .list.room .user.role-promoter .name,#user-rollover.is-promoter .thumb, #user-rollover.is-promoter .username {
+color: #1abc9c!important;
+border-color: #1abc9c!important;
 }
 
-#chat .from.sitemod .un, #user-lists .list.room .user.role-sitemod .name {
-color: #e74c3c!important; /* had to add it here since !important in other code  overrides the original color*/
+#chat .from.sitemod .un, #user-lists .list.room .user.role-sitemod .name, #user-rollover.is-sitemod .thumb, #user-rollover.is-sitemod .username {
+color: #e74c3c!important;
+border-color: #e74c3c!important; 
 }
 
-#chat .from.subscriber .un, #user-lists .list.room .user.is-subscriber .name, #waitlist .list .user .name .icon-chat-subscriber + span {
-color: #c59840!important;/* had to add it here since !important in other code  overrides the original color*/
+#chat .from.subscriber .un, #user-lists .list.room .user.is-subscriber .name, #user-rollover .subscriber .username, #user-rollover .subscriber .thumb, #waitlist .is-subscriber .thumb {
+color: #c59840!important;
+border-color: #c59840!important;
 }
 
-#chat .role-cohost .un,  #user-lists .list.room .user.role-cohost .name, #waitlist .list .user .name .icon-chat-host + span {
-color: rgb(204,216,217)!important; 
+#chat .role-cohost .un, #user-lists .list.room .user.role-cohost .name, #waitlist .list .user .name .icon-chat-cohost + span, #user-rollover.role-cohost .username, #user-rollover.role-cohost .thumb, #waitlist .role-cohost .thumb, #user-rollover.role-cohost .info .role span {
+color: rgb(204,216,217)!important;
+border-color: rgb(204,216,217)!important;
 }
 
-#chat .role-manager .un, #user-lists .list.room .user.role-manager .name, #waitlist .list .user .name .icon-chat-manager + span {
+#chat .role-manager .un, #user-lists .list.room .user.role-manager .name, #waitlist .list .user .name .icon-chat-manager + span, #user-rollover.role-manager .username, #user-rollover.role-manager .thumb, #waitlist .role-manager .thumb, #user-rollover.role-manager .info .role span {
 color: rgb(168,191,199)!important;
+border-color: rgb(168,191,199)!important;
 }
 
-#chat .role-bouncer .un, #user-lists .list.room .user.role-bouncer .name, #waitlist .list .user .name .icon-chat-bouncer + span {
+#chat .role-bouncer .un, #user-lists .list.room .user.role-bouncer .name, #waitlist .list .user .name .icon-chat-bouncer + span, #user-rollover.role-bouncer .username, #user-rollover.role-bouncer .thumb, #waitlist .role-bouncer .thumb, #user-rollover.role-bouncer .info .role span {
 color: rgb(233,195,4)!important;
+border-color: rgb(233,195,4)!important;
 }
 
-#chat .from.dj .un, #user-lists .list.room .user.role-dj .name, #waitlist .list .user .name .icon-chat-dj + span { 
+#chat .role-dj .un, #user-lists .list.room .user.role-dj .name, #waitlist .list .user .name .icon-chat-dj + span, #user-rollover.role-dj .username, #user-rollover.role-dj .thumb, #waitlist .role-dj .thumb, #user-rollover.role-dj .info .role span { 
 color: rgb(104,120,255)!important;
+border-color: rgb(104,120,255)!important;
 }
 
-#chat .un, #user-lists .list.room .name { /* for non-staff */
-color: rgb(88, 135, 183)!important; /*old color: rgb(132,193,255)*/
+#chat .un, #user-lists .list.room .name, #user-rollover .username, #user-rollover .thumb { /* for non-staff */
+color: rgb(88, 135, 183)!important;
+border-color: rgb(88, 135, 183)!important;
 }
 
 #user-lists .list .user .name { /* for the staff names in the staff tab*/
