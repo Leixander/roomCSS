@@ -125,7 +125,7 @@ color: #e74c3c!important;
 border-color: #e74c3c!important; 
 }
 
-#chat .from.subscriber .un, #user-lists .list.room .user.is-subscriber .name, #user-rollover .subscriber .username, #user-rollover .subscriber .thumb, #waitlist .is-subscriber .thumb {
+#chat .from.subscriber .un, #user-lists .list.room .user.is-subscriber .name, #user-rollover .is-subscriber .username, #user-rollover .is-subscriber .thumb, #waitlist .is-subscriber .thumb {
 color: #c59840!important;
 border-color: #c59840!important;
 }
