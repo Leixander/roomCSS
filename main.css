@@ -141,8 +141,8 @@ border-color: rgb(168,191,199)!important;
 }
 
 #chat .role-bouncer .un, #user-lists .list.room .user.role-bouncer .name, #waitlist .list .user .name .icon-chat-bouncer + span, #user-rollover.role-bouncer .username, #user-rollover.role-bouncer .thumb, #waitlist .role-bouncer .thumb, #user-rollover.role-bouncer .info .role span {
-color: rgb(233,195,4)!important;
-border-color: rgb(233,195,4)!important;
+color: rgb(122, 70, 2)!important;
+border-color: rgb(122, 70, 2)!important;
 }
 
 #chat .role-dj .un, #user-lists .list.room .user.role-dj .name, #waitlist .list .user .name .icon-chat-dj + span, #user-rollover.role-dj .username, #user-rollover.role-dj .thumb, #waitlist .role-dj .thumb, #user-rollover.role-dj .info .role span { 
