@@ -128,7 +128,7 @@ border-color: #e74c3c!important;
 #chat .from.subscriber .un, #user-lists .list.room .user.is-subscriber .name, #user-rollover .is-subscriber .username, #user-rollover .is-subscriber .thumb, #waitlist .is-subscriber .thumb {
 color: #c59840!important;
 border-color: #c59840!important;
-}*/ /* no need as I disabled non-staff user colors*/
+}
 
 #chat .role-cohost .un, #user-lists .list.room .user.role-cohost .name, #waitlist .list .user .name .icon-chat-cohost + span, #user-rollover.role-cohost .username, #user-rollover.role-cohost .thumb, #waitlist .role-cohost .thumb, #user-rollover.role-cohost .info .role span {
 color: rgb(204,216,217)!important;
@@ -150,14 +150,14 @@ color: rgb(104,120,255)!important;
 border-color: rgb(104,120,255)!important;
 }
 
-/*#chat .un, #user-lists .list.room .name, #user-rollover .username, #user-rollover .thumb { 
+#chat .un, #user-lists .list.room .name, #user-rollover .username, #user-rollover .thumb { 
 color: rgb(88, 135, 183)!important;
 border-color: rgb(88, 135, 183)!important;
-} */ /*non-staff colors, disabled for now because of site-staff coloring issues*/
-
-#user-lists .list .user .name { /* for the staff names in the staff tab*/
-color: rgb(88, 135, 183);
 }
+
+#user-lists .list .user .name { 
+color: rgb(88, 135, 183);
+}*/
 
 /* mention gradient */
 #chat .mention .msg {
