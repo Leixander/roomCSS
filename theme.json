@@ -26,6 +26,10 @@
         "friend":               "#B35D88",
         "user":                 "#5887B7"
     },
+    "images": {
+		"background": "https://raw.githubusercontent.com/Leixander/roomCSS/master/popheadsbg2.png"
+    },
+    
     "emotes": {
         "kisskiss": "https://cdn.discordapp.com/emojis/388482007367155712.png",
         "fish1": "https://cdn.discordapp.com/emojis/369126893087227905.png",
