@@ -1,0 +1,33 @@
+.msg {
+    background: linear-gradient(to bottom,#0c0701,#000000);
+    color: white;
+}
+
+.cid-undefined {
+color: #B7833E;
+}
+
+.community__top {
+background-color: #1d1103;
+}
+
+.community__right-bar {
+    background-color: #0c0701;
+}
+
+.community__bottom {
+background-color: #1d1103;
+}
+
+.community__left-nav{
+background: #1d1103;
+}
+
+#playlist-panel {
+  
+    background: #944b0ae6;
+}
+
+#chat {
+background-color: #0c0701;
+}
