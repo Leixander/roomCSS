@@ -1,7 +1,7 @@
 {
     "room": "popheads",
     "author": "Leixander",
-    "css": "https://rawgit.com/Leixander/roomCSS/master/main.css",
+    "css": "https://rawgit.com/Leixander/roomCSS/master/summercss.css",
     "rules": {
         "allowAutorespond": false,
         "allowAutowoot": true,
@@ -27,7 +27,7 @@
         "user":                 "#5887B7"
     },
     "images": {
-		"background": "https://raw.githubusercontent.com/Leixander/roomCSS/master/popheadsbg2.png"
+		"background": "https://raw.githubusercontent.com/Leixander/roomCSS/master/popheadssummerbg.png"
     },
     
     "emotes": {
