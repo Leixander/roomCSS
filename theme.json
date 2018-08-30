@@ -1,7 +1,7 @@
 {
     "room": "popheads",
     "author": "Leixander",
-    "css": "https://rawgit.com/Leixander/roomCSS/master/summercss.css",
+    "css": "https://rawgit.com/Leixander/roomCSS/master/main.css",
     "rules": {
         "allowAutorespond": false,
         "allowAutowoot": true,
